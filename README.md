@@ -3,11 +3,11 @@ an Java authorization service including Spring Security/Hibernate/Postgres
 
 # Endpoints
 > Информация о пользователе передается через Authentication header
-### Для незарегистрированных пользователей
+
 /validate - проверить доступность имени\
-/register - регистрация и аутентификация
-### Для зарегистрированных пользователей
-/login - только аутентификация\
+/register - регистрация и аутентификация\
+/login - только аутентификация
+### Для аутентифицированных пользователей
 /animals/create - создать животное\
 /animals/{id} (POST) - обновить информацию о животном\
 /animals/{id} (DELETE) - удалить животное\
