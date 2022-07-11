@@ -1,6 +1,3 @@
-# AuthService
-an Java authorization service including Spring Security/Hibernate/Postgres
-
 # Endpoints
 > Информация о пользователе передается через Authentication header
 
